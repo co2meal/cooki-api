@@ -84,3 +84,59 @@ POST /nodes/[id]/chips                          | Create a new chip
 {…}
 ]
 ``` 
+
+# News Feeds
+```
+{
+"since": {
+"created_at": "2012-10-15T01:07:50Z",
+"id": 600197
+},
+"feeds": [
+{
+"bind_type": null,
+"bind": null,
+"node": {
+"id": 8584,
+"scope": "news",
+"status": "published",
+"extra_type": null,
+"lang": "ko",
+"ref_type": "Post",
+"created_at": "2012-10-15T06:14:31Z",
+"num_pageviews": 9,
+"ref": {
+"id": 8277,
+"kind": "readability",
+"link_title": "(101) Firing: How do you fire an employee that just isn't good enough? - Quora",
+"message_formatted": "<p>완벽한 하이어링에 꼭 필요한 것이, 효과적인 해고인 것 같습니다. 그러면서도 정말 어려운 일이네요.</p>\n\n<p>쿼라에 올라온 여러 경험담/조언들을 보자면 결국 케바케이고, 해고해야 할 직원이 어떤 타입이고 어떤 상황에 처해있는지에 따라 모두 다르게 접근해야 한다는 부분이 핵심인 것 같습니다.</p>\n\n<p>Dividers(구성원들 사이에 광범위하게 악영향을 끼치는 사람, 예: 정치적인 행동으로 팀웍을 떨어트리는 사람) 와 Subtractors (그냥 퍼포먼스가 떨어지는 구성원) 로 먼저 구분하는 것이 우선이며, 이에 따른 접근이 달라야 한다는 말입니다. </p>\n\n<p>번역중 (..)</p>",
+"source": "Bake It",
+"cover_image_geometry_tile": "394x185",
+"video_link": null,
+"chips_count": 0,
+"cover_image": "https://cooki-jp.s3.amazonaws.com/posts/cover_images/8277/tile/open-uri20121015-17445-iusrwk.?1350281853",
+"link": "/nodes/8584/link",
+"link_zoom": "/nodes/8584#zoom",
+"link_origin": "http://www.quora.com/Firing/How-do-you-fire-an-employee-that-just-isnt-good-enough",
+"link_domain": "Quora",
+"is_zoom": true,
+"created_at": "2012-10-15T06:14:31Z",
+"user": {
+"id": 18,
+"name": "Paul 'Sungyoung' Jung",
+"image_thumb": "https://cooki-jp.s3.amazonaws.com/users/images/18/thumb/stringio.txt?1346652907"
+},
+"collection": {
+"id": 193,
+"name": "Pursuit of Perfect Hiring",
+"user_id": 18,
+"is_crew": false,
+"is_following": true
+},
+"comments": [],
+"chips": []
+}
+}
+}, {}
+}
+```
