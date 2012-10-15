@@ -85,7 +85,7 @@ POST /nodes/[id]/chips                          | Create a new chip
 ]
 ``` 
 
-# News Feeds
+### News Feeds
 ```
 {
 "since": {
