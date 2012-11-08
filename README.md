@@ -20,4 +20,4 @@ POST /nodes/[id]/comments                       | Create a new comment
 DELETE /nodes/[id]/comments                     | Delete a comment
 GET /nodes/[id]/chips                           | Chips
 POST /nodes/[id]/chips                          | Create a new chip
-
+POST /friend_requests/[target user id]          | Send friend request
